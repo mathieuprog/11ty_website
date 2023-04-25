@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --watch",
+    "build": "npx @11ty/eleventy"
+  },
+  "author": "Mathieu Decaffmeyer",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

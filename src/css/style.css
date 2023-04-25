@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  height: 100dvh;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-color: white;
+}
+
+body {
+  background: black;
+  color: var(--primary-color);
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  height: 100dvh;
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  max-width: 740px;
+  text-align: center;
+}
